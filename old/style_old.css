@@ -1,23 +1,14 @@
+@import url("fonts.css");
+
 :root {
-  --bright-green: #e5f2d8;;
+  --bright-orange: #ff9c55;
 }
-
-@font-face {
-    font-family: "e-Ukraine-Light";
-    src: url("./fonts/e-Ukraine-Light.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 body {
   margin: 0;
   font-family: "e-Ukraine-Light", sans-serif;
   font-size: calc(12px + 0.5vw);
 }
-
-
-
 
 p {
   line-height: 1.5;
@@ -30,7 +21,7 @@ img {
 }
 
 section.header {
-  background-color: var(--bright-green);
+  background-color: var(--bright-orange);
   padding: 30px;
 }
 
@@ -56,7 +47,7 @@ nav {
 }
 
 .button.ghost.ic-share {
-  background-image: url(https://texty.org.ua/d/opendata-showcase/images/ic-share.svg);
+  background-image: url(images/ic-share.svg);
   background-position: 22px;
   background-repeat: no-repeat;
   background-size: 22px;
@@ -89,19 +80,14 @@ nav {
   display: flex;
 }
 
-
 h1.title {
-  font-family: "e-Ukraine-Light", serif;
+  font-family: "e-UkraineHead-Light", serif;
   /* font-size: 40px; */
   font-size: calc(25px + 2vw);
   line-height: 1.2;
   margin: auto;
   color: black;
   max-width: 90%;
-}
-
-.title-about {
-  margin: 0px 0px 50px 0px;
 }
 
 .logo {
@@ -144,7 +130,7 @@ h1.title {
   height: max-content;
   background: radial-gradient(
     50% 50% at 50% 50%,
-    rgb(173, 218, 117),
+    rgb(255, 156, 85),
     rgba(255, 255, 255, 0.29) 92.366%
   );
 }
@@ -306,8 +292,8 @@ h1.title {
 
 .day-moderator {
   grid-row: 2/3;
-  background-color: var(--bright-green);
-  color: black;
+  background-color: var(--bright-orange);
+  color: white;
   box-sizing: border-box;
   padding: 10px;
   border-radius: 0 0 20px 20px;
