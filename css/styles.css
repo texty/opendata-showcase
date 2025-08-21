@@ -83,7 +83,7 @@ nav {
 }
 
 .button.ghost.ic-share {
-  background-image: url(/images/ic-share.svg);
+  background-image: url(./images/ic-share.svg);
   background-position: 22px;
   background-repeat: no-repeat;
   background-size: 22px;
