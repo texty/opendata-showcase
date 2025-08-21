@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "e-Ukraine-Light";
-    src: url("./fonts/e-Ukraine-Light.otf") format("opentype");
+    src: url("/fonts/e-Ukraine-Light.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
